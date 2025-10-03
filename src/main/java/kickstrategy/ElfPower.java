@@ -1,6 +1,6 @@
 package kickstrategy;
 
-import characters.Character;
+import lotr.Character;
 
 public class ElfPower implements KickStrategy {
 

@@ -1,4 +1,4 @@
-package characters;
+package lotr;
 
 import kickstrategy.KickStrategy;
 import lombok.AllArgsConstructor;
@@ -7,6 +7,7 @@ import lombok.Setter;
 
 @AllArgsConstructor
 public abstract class Character {
+
     @Getter
     private int hp;
     @Getter @Setter
@@ -24,4 +25,5 @@ public abstract class Character {
     public void kick(Character c) {
         kickStrategy.kick(this, c);
     }
+
 }

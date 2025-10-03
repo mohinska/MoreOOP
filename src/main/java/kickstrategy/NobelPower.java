@@ -1,7 +1,8 @@
 package kickstrategy;
 
 import java.util.Random;
-import characters.Character;
+
+import lotr.Character;
 
 public class NobelPower implements KickStrategy {
 
